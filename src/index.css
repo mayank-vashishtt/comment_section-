@@ -1,0 +1,123 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.comment-list {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment-list input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.comment-list button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 5px;
+}
+
+.comment-list button:hover {
+  background-color: #0056b3;
+}
+
+.comment {
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.comment strong {
+  font-size: 16px;
+  color: #333;
+}
+
+.comment small {
+  color: #777;
+  font-size: 12px;
+}
+
+.comment p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.comment-actions button {
+  background-color: transparent;
+  color: #007bff;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.comment-actions button:hover {
+  text-decoration: underline;
+}
+
+.reply-form {
+  margin-top: 15px;
+  padding-left: 20px;
+  border-left: 2px solid #007bff;
+}
+
+.reply-form input[type="text"] {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.reply-form button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reply-form button:hover {
+  background-color: #218838;
+}
+
+.reply {
+  margin-top: 15px;
+  padding-left: 20px;
+  border-left: 2px solid #ddd;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+}
